@@ -82,7 +82,7 @@ export default function Navbar() {
               <ul className="absolute top-full left-0 mt-3 w-56 bg-white shadow-lg rounded opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                 <li>
                   <Link
-                    href="/services/civil-engineering"
+                    href="/services/Civil-Engineering"
                     className="block px-5 py-3 hover:bg-gray-100"
                   >
                     Civil Engineering
@@ -182,7 +182,7 @@ export default function Navbar() {
 
             {servicesOpen && (
               <div className="ml-4 flex flex-col gap-4 text-base">
-                <Link href="/services/civil-engineering" onClick={() => setOpen(false)}>
+                <Link href="/services/Civil-Engineering" onClick={() => setOpen(false)}>
                   Civil Engineering
                 </Link>
                 <Link href="/services/engineering-services" onClick={() => setOpen(false)}>
